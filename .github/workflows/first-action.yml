@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs:
      first-jobs-Windows:
      name: first job
-     runs-on: windows-2022
+     runs-on: windows-2019
      steps: 
       - name: Print greeting
         run: echo "Hello World"
