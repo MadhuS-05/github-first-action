@@ -1,11 +1,12 @@
 name: First Workflow
 on: workflow_dispatch
 jobs:
-  first-job:
-  runs-on: windows-2025
-  steps: 
-   - name: Print greeting
-     run: echo "Hello World"
-   - name: print goodbye
-     run: echo "Done- bye!"
+     first-jobs-Windows:
+     name: first job
+     runs-on: windows-2022
+     steps: 
+      - name: Print greeting
+        run: echo "Hello World"
+      - name: print goodbye
+        run: echo "Done- bye!"
     
